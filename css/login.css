@@ -10,7 +10,10 @@
     width: 80px;
     border-radius: 10px;
 }
-
+.responsive-img{
+    height:600px;
+    width:700px;
+}
 body{
     background-color: #fffbe6;
     font-family: 'Times New Roman', Times, serif;
@@ -225,3 +228,23 @@ body{
         margin-left: 0;
     }
 }
+
+
+
+
+
+@media (max-width: 1024px) {
+    .responsive-img {
+        width: 500px;
+        height: auto;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .responsive-img {
+        width: 100%;
+        height: auto; 
+    }
+}
+
