@@ -146,7 +146,6 @@ body {
     overflow: hidden;
     position: relative;
 }
-
 .about-image-section img {
     width: 100%;
     height: 100%;
@@ -154,7 +153,6 @@ body {
     /* Ensures the image covers the area nicely */
     display: block;
 }
-
 .about-content-section {
     flex: 1;
     padding: 5% 7%;
@@ -163,16 +161,13 @@ body {
     justify-content: center;
     background-color: #fff;
 }
-
 .intro-text {
     font-size: 1.1rem;
     margin-bottom: 30px;
 }
-
 .mission-vision h2 {
     margin-top: 25px;
 }
-
 .mission-vision ul {
     list-style-type: none;
     padding-left: 0;
