@@ -97,10 +97,15 @@ body {
     padding: 60px;
     
 }
+.right-box:hover{
+    border: solid 2px green;
+    transition: 2s;
+    background-color: #caeccb;
+}
 
 .title {
     font-size: 32px;
-    color:#fa970d;
+    color: #a86201;
     margin-bottom: 20px;
     text-align: center;
     font-weight: 800;
@@ -112,6 +117,8 @@ body {
     flex-direction: column;
 }
 
+
+
 .form label {
     margin-top: 10px;
     font-size: 16px;
@@ -122,35 +129,51 @@ body {
 .form input {
     margin-top: 5px;
     padding: 12px;
-    border: 1px solid #aaa;
+    border: 1px solid #0a0909;
     border-radius: 5px;
     font-size: 16px;
     outline: none;
 }
 
 .form input:focus {
-    border-color: #b8860b;
+    border: solid 2px rgb(218, 179, 7);
+    transition: 1s;
+    background-color: #caeccb;
+   
+    
+ 
 }
+
+ .paregraf{
+    text-align: center;
+    text-decoration: none;
+    color:#f4f5f7;
+    font-size: 20px;
+  
+ }
+
+  .text{
+    color:#e8ebee;
+    text-decoration: none;
+ }
+
 .btn {
     margin-top: 20px;
     padding: 12px;
-     background-color:#31443b;
-    box-shadow: 2px 2px 2px rgb(23, 78, 23);
-    font-size: 18px;
+    background:#a86201;
     color: white;
+    font-size: 18px;
     font-weight: bold;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
 
-.btn:hover {
-     background-color: #192d1d;
-}
 
-
-
-
+ .btn:hover {
+    background-color: #192d1d;
+    box-shadow: rgba(41, 72, 59, 0.4);
+ }
 
 
 
