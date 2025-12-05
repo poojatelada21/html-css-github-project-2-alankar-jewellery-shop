@@ -117,7 +117,7 @@ body {
     border-radius: 12px;
     text-align: center;
     box-shadow: 0px 0px 5px 1px #525151;
-    transition: 0.3s;;
+    transition: 0.3s;
 }
 
 .product-card img {
@@ -196,6 +196,10 @@ body {
     transition: 0.5s;
 
 
+}
+
+.video-container{
+position: fixed;
 }
 
 footer {

@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +6,6 @@ body {
     font-family: 'Times New Roman', Times, serif;
     padding-top: 100px;
 }
-
 .navbar {
     background-color: #a86201;
     color: white;
@@ -18,31 +18,25 @@ body {
     width: 100%;
     flex-wrap: wrap;
 }
-
 .left-section {
     display: flex;
     align-items: center;
     margin-right: 20px;
 }
-
 .left-section img {
     margin-right: 15px;
-
 }
-
 .brand-section {
     display: flex;
     align-items: center;
     gap: 20px;
 }
-
 .brand-logo {
     width: 80px;
     height: 80px;
     border-radius: 10px;
     gap: 50px;
 }
-
 .brand-text {
     margin: 10;
     padding: 20;
@@ -50,13 +44,11 @@ body {
     font-weight: bold;
     color: white;
 }
-
 .center-links {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
 }
-
 .center-links a {
     text-decoration: none;
     font-size: 20px;
@@ -64,17 +56,14 @@ body {
     font-weight: 800;
     transition: 0.3s;
 }
-
 .center-links a:hover {
     color: darkorange;
 }
-
 .right-links {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
 }
-
 .right-links a {
     text-decoration: none;
     color: white;
@@ -82,11 +71,9 @@ body {
     font-weight: 800;
     transition: 0.3s;
 }
-
 .right-links a:hover {
     color: darkorange;
 }
-
 /* About Page Specific Styling */
 .about-container {
     display: flex;
@@ -136,6 +123,12 @@ body {
     top: 0;
     color: #bcaaa4;
 }
+/*team*/
+.heading-1 {
+    font-size: 50px;
+    text-align: center;
+    color: #d8830c;
+}
 /* card scc*/
 .banner-class {
     position: relative;
@@ -173,20 +166,32 @@ body {
     transition: 0.3s;
     box-shadow: 0 0 15px 9px #c2c2a3;
 }
-/*- card css */
-.icon {
-    height: 150px;
+.products-container {
+    display: flex;
+    justify-content:center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
-.card {
-    box-shadow: 10px 10px 20px 2px #e1dcd0;
-    padding: 4px;
-    cursor: pointer;
+.product-card {
+    width: 260px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 1px #525151;
+    cursor: pointer;  
 }
-.card:hover {
-    border: 1px solid #e8af3e;
+.product-card img {
+    width: 100%;
+    height: 260px;
+    border-radius: 12px;
 }
-.color {
-    color: #e88d3e;
+
+.product-card:hover {
+    box-shadow: rgba(94, 93, 93, 0.2);
+    transition: 0.5s;
+    background-color: #effcef;
+
 }
 /* Minimal local CSS to keep layout usable if external CSS missing.
        Put the longer CSS below into /css/about-us.css instead if you prefer. */
@@ -335,7 +340,7 @@ footer.main {
     top: 0;
     color: #bcaaa4;
 }
-/*footer code*/
+/footer code/
 footer {
     background-color: #a86201;
     color: white;
@@ -443,4 +448,11 @@ footer {
     margin: 0;
     padding: 0;
     display: block;
+}
+/*card color */
+.pragraph-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.color {
+    color: #e88d3e;
 }
