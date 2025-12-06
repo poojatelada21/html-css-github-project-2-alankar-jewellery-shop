@@ -266,6 +266,12 @@ footer {
     color: white;
     text-decoration: none;
 }
+.footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .footer-contact p {
     white-space: nowrap;
 }
