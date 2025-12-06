@@ -30,14 +30,14 @@ This project showcases clean UI design, beautiful layouts, product sections, col
 ## **Features**
 <!-- H2 tag + Bold text -->
 
-- ✔️ Elegant and modern jewellery website  
-- ✔️ Fully responsive design  
-- ✔️ Navigation bar with logo  
-- ✔️ Product cards (Rings / Necklaces / Earrings / More)  
-- ✔️ Collection pages  
-- ✔️ Smooth UI & layout  
-- ✔️ Attractive color palette  
-- ✔️ Clean code structure  
+- ✔️ **Elegant and modern jewellery website**  
+- ✔️ **Fully responsive design**  
+- ✔️ **Navigation bar with logo**  
+- ✔️ **Product cards (Rings / Necklaces / Earrings / More)**  
+- ✔️ **Collection pages**  
+- ✔️ **Smooth UI & layout**  
+- ✔️ **Attractive color palette**  
+- ✔️ **Clean code structure**  
 <!-- Unordered list -->
 
 ---
@@ -49,7 +49,6 @@ This project showcases clean UI design, beautiful layouts, product sections, col
 <!-- H3 tag -->
 ![Home Screenshot](./images/sc-homepage.png)  
 ![Home Screenshot](./images/sc-homepage1.png)  
-<!-- Image tag -->
 
 ### Collections Page
 <!-- H3 tag -->
@@ -59,41 +58,6 @@ This project showcases clean UI design, beautiful layouts, product sections, col
 
 ---
 
-## **Folder Structure**
-<!-- H2 tag -->
-
-```text
-HTML-CSS-Github-Project-2-Alankar-Jewellery-Shop/
-│
-├─ index.html
-├─ README.md
-├─ style.css
-│
-├─ css/
-│  ├─ about.css
-│  ├─ booking.css
-│  ├─ category.css
-│  ├─ contact.css
-│  ├─ feedback.css
-│  ├─ login.css
-│  └─ signup.css
-│
-├─ pages/
-│  ├─ about.html
-│  ├─ booking.html
-│  ├─ category.html
-│  ├─ contact.html
-│  ├─ feedback.html
-│  ├─ login.html
-│  └─ signup.html
-│
-└─ images/
-   ├─ logo.png
-   ├─ product-images/
-   ├─ banner-images/
-   └─ tea
-<!-- -->
-
 ## **Technologies Used**
 <!-- H2 tag -->
 
@@ -102,6 +66,41 @@ HTML-CSS-Github-Project-2-Alankar-Jewellery-Shop/
 - **Responsive Web Design**  
 
 ---
+
+
+## 📁 Folder Structure
+<!-- H2 tag -->
+
+- **index.html**  
+- **README.md**  
+- **style.css**  
+
+- **css/**  
+  - about.css  
+  - booking.css  
+  - category.css  
+  - contact.css  
+  - feedback.css  
+  - login.css  
+  - signup.css  
+
+- **pages/**  
+  - about.html  
+  - booking.html  
+  - category.html  
+  - contact.html  
+  - feedback.html  
+  - login.html  
+  - signup.html  
+
+- **images/**  
+  - logo.png  
+  - product-images/  
+  - banner-images/  
+  - team-images/  
+
+---
+
 
 ## **Collaborators**
 <!-- H2 tag -->
