@@ -92,14 +92,12 @@ HTML-CSS-Github-Project-2-Alankar-Jewellery-Shop/
    ├─ product-images/
    ├─ banner-images/
    └─ tea
-
----
+<!-- -->
 
 ## **Technologies Used**
 <!-- H2 tag -->
 
 - **HTML**  
-<!-- Bold inside list item -->
 - **CSS**  
 - **Responsive Web Design**  
 
